@@ -1,5 +1,5 @@
 const modal = document.getElementById("ct-form");
-const windowContent = document.querySelector(".window-content");
+const windowContent = document.querySelector(".page-content");
 
 function showModal() {
     modal.classList.remove("form-state");

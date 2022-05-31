@@ -2,6 +2,10 @@
     color: #317f43;
  }
 
+ .page-content {
+     position: static;
+}
+
  .custom-background-color {
     background-color: #317f43;
 }
@@ -149,7 +153,7 @@ p {
 .message-impact {
     position: absolute;
     top: 50%;
-    transform: translate(0, -40%);
+    transform: translate(0,-40%);
     display: flex;
     flex-direction: column; 
     text-align: center;
@@ -315,7 +319,7 @@ p {
 #ct-form {
     position: absolute;
     left: 50%;
-    top: 19%;
+    top: 50%;
     transform: translate(-50%, -50%);
     width: 900px;
     height: 900px;
@@ -429,12 +433,10 @@ input[type="text"] {
     color: #ffffff;
 }
 
-.window-content {
-    position: relative;
-}
+
 
 .dim-background {
     filter: brightness(50%);
-    position: fixed;
+    position: relative;
 }
 
